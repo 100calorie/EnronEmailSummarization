@@ -39,7 +39,7 @@ class Enron_Mail_Solution:
 
 	def send_receive_cnt_report(self, file_name):
 		# generate sender/recipients report
-		self.records.columns = ['# of email sent', '# of email received']
+		self.records.columns = ['sent', 'received']
 		self.records.to_csv(file_name)
 		print('Writing sent/received email counts to '+file_name)
 
