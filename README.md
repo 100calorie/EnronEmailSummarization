@@ -4,12 +4,12 @@ Please create a script “summarize-enron.py” that can be run from the [Unix] 
 
 The Enron event history (.csv, adapted from the widely-used publicly available data set) is attached to this email. The columns contain:
 
-•	time - time is Unix time (in milliseconds)
-•	message identifier
-•	sender
-•	recipients - pipe-separated list of email recipients
-•	topic - always empty
-•	mode - always "email"
+. time - time is Unix time (in milliseconds)
+. message identifier
+. sender
+. recipients - pipe-separated list of email recipients
+. topic - always empty
+. mode - always "email"
 
 Your script should produce three outputs:
 1.	A .csv file with three columns---"person", "sent", "received"---where the final two columns contain the number of emails that person sent or received in the data set. This file should be sorted by the number of emails sent.
